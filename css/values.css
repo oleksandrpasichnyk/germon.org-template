@@ -8,6 +8,7 @@
 
 .value {
   margin-bottom: 30px;
+  transition: 0.25s ease-in-out all;
 }
 
 .value-img-block {
@@ -20,16 +21,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.25s ease-in-out all;
 }
 
 .value-img {
 	height: 50%;
   opacity: 0.9;
-  /* padding: 20px; */
-	/* padding: 27px 25px; */
+  transition: 0.25s ease-in-out all;
 }
 
 #tf-values .value:hover>.value-img-block{
-  /* filter: invert(1); */
 	background-color: #45c8fc;
+}
+
+#tf-values .value:hover .value-img{
+  filter: invert(1);
+  /* height: 60%; */
+  opacity: 1;
 }
