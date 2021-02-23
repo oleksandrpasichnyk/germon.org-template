@@ -34,6 +34,10 @@
 
     <!-- Stylesheet
     ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/main.css">
+    <link rel="stylesheet" type="text/css"  href="css/navigation.css">
+    <link rel="stylesheet" type="text/css"  href="css/home.css">
+    <link rel="stylesheet" type="text/css"  href="css/values.css">
     <link rel="stylesheet" type="text/css"  href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
@@ -68,13 +72,13 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#tf-home" class="page-scroll">Home</a></li>
-            <li><a href="#tf-about" class="page-scroll">About</a></li>
-            <li><a href="#tf-team" class="page-scroll">Team</a></li>
-            <li><a href="#tf-services" class="page-scroll">Services</a></li>
-            <li><a href="#tf-works" class="page-scroll">Portfolio</a></li>
+            <li><a href="#tf-home" class="page-scroll">Головна</a></li>
+            <li><a href="#tf-about" class="page-scroll">Про нас</a></li>
+            <li><a href="#tf-team" class="page-scroll">Наші пастори</a></li>
+            <li><a href="#tf-values" class="page-scroll">Наші цінності</a></li>
+            <li><a href="#tf-works" class="page-scroll">Галерея</a></li>
             <li><a href="#tf-testimonials" class="page-scroll">Testimonials</a></li>
-            <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
+            <li><a href="#tf-contact" class="page-scroll">Контакти</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -82,19 +86,19 @@
 
     <!-- Home Page
     ==========================================-->
-    <div id="tf-home" class="text-center">
+    <section id="tf-home" class="text-center screen-heigth">
         <div class="overlay">
             <div class="content">
-                <h1>Welcome on <strong><span class="color">Spirit8</span></strong></h1>
-                <p class="lead">We are a digital agency with <strong>years of experience</strong> and with <strong>extraordinary people</strong></p>
+                <h1><span class="color">Змінюйся</span>, щоб змінився світ!</h1>
+                <p class="lead">Життя ж наше на небесах, звідки ждемо й Спасителя, Господа Ісуса Христа <span class="lead-2">(До филип'ян 3:20-21 UBIO)</span></p>
                 <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- About Us Page
     ==========================================-->
-    <div id="tf-about">
+    <section id="tf-about" class="screen-heigth">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -127,11 +131,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Team Page
     ==========================================-->
-    <div id="tf-team" class="text-center">
+    <section id="tf-team" class="text-center">
         <div class="overlay">
             <div class="container">
                 <div class="section-title center">
@@ -233,48 +237,72 @@
                 
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Services Section
     ==========================================-->
-    <div id="tf-services" class="text-center">
+    <section id="tf-values" class="text-center screen-heigth">
         <div class="container">
             <div class="section-title center">
-                <h2>Take a look at <strong>our services</strong></h2>
+                <h2><strong>Ми цінуємо</strong></h2>
                 <div class="line">
                     <hr>
                 </div>
-                <div class="clearfix"></div>
-                <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small>
+                <!-- <div class="clearfix"></div>
+                <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
             </div>
             <div class="space"></div>
             <div class="row">
-                <div class="col-md-3 col-sm-6 service">
-                    <i class="fa fa-desktop"></i>
-                    <h4><strong>Web design</strong></h4>
+                <div class="col-md-4 col-sm-6 value">
+                    <div class="value-img-block">
+                        <img class="value-img" src="./img/values/1_relationship.png" alt="relationship">
+                    </div>
+                    <h4><strong>Особистими стосунками з Богом</strong></h4>
                     <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
                 </div>
 
-                <div class="col-md-3 col-sm-6 service">
-                    <i class="fa fa-mobile"></i>
-                    <h4><strong>Mobile Apps</strong></h4>
+                <div class="col-md-4 col-sm-6 value">
+                    <div class="value-img-block">
+                        <img class="value-img" src="./img/values/2_glory.png" alt="glory">
+                    </div>
+                    <h4><strong>Поклонінням Богові</strong></h4>
                     <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
                 </div>
 
-                <div class="col-md-3 col-sm-6 service">
-                    <i class="fa fa-camera"></i>
-                    <h4><strong>Photography</strong></h4>
+                <div class="col-md-4 col-sm-6 value">
+                    <div class="value-img-block">
+                        <img class="value-img" src="./img/values/3_church.png" alt="church">
+                    </div>
+                    <h4><strong>Церквою</strong></h4>
                     <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
                 </div>
 
-                <div class="col-md-3 col-sm-6 service">
-                    <i class="fa fa-bullhorn"></i>
-                    <h4><strong>Marketing</strong></h4>
+                <div class="col-md-4 col-sm-6 value">
+                    <div class="value-img-block">
+                        <img class="value-img" src="./img/values/4_gospel.png" alt="gospel">
+                    </div>
+                    <h4><strong>Євангелією</strong></h4>
+                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 value">
+                    <div class="value-img-block">
+                        <img class="value-img" src="./img/values/5_serve.png" alt="serve">
+                    </div>
+                    <h4><strong>Служінням дарами Духа Святого</strong></h4>
+                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 value">
+                    <div class="value-img-block">
+                        <img class="value-img" src="./img/values/6_family.png" alt="family">
+                    </div>
+                    <h4><strong>Сім'єю</strong></h4>
                     <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Clients Section
     ==========================================-->
@@ -336,7 +364,7 @@
                     <li class="pull-left"><h4>Filter by Type:</h4></li>
                     <li class="pull-right">
                         <ol class="type">
-                            <li><a href="#" data-filter="*" class="active">All</a></li>
+                            <li><a href="#" data-filter="*" class="active">Всі</a></li>
                             <li><a href="#" data-filter=".web">Web Design</a></li>
                             <li><a href="#" data-filter=".photography">Photography</a></li>
                             <li><a href="#" data-filter=".app" >Mobile App</a></li>

@@ -47,8 +47,8 @@ function main() {
   	  $("#team").owlCarousel({
   	 
   	      navigation : false, // Show next and prev buttons
-  	      slideSpeed : 300,
-  	      paginationSpeed : 400,
+  	      slideSpeed : 1000,
+  	      paginationSpeed : 1000,
   	      autoHeight : true,
   	      itemsCustom : [
 				        [0, 1],
@@ -65,8 +65,8 @@ function main() {
   	  $("#clients").owlCarousel({
   	 
   	      navigation : false, // Show next and prev buttons
-  	      slideSpeed : 300,
-  	      paginationSpeed : 400,
+  	      slideSpeed : 1000,
+  	      paginationSpeed : 1000,
   	      autoHeight : true,
   	      itemsCustom : [
 				        [0, 1],
@@ -82,8 +82,8 @@ function main() {
 
       $("#testimonial").owlCarousel({
         navigation : false, // Show next and prev buttons
-        slideSpeed : 300,
-        paginationSpeed : 400,
+        slideSpeed : 1000,
+        paginationSpeed : 1000,
         singleItem:true
         });
 
