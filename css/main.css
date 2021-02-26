@@ -80,6 +80,7 @@ footer#footer{
 	background: #222222;
 	color: #ffffff;
 	padding: 20px 0 15px 0;
+	margin-bottom: 0;
 }
 footer#footer .fnav{ vertical-align: middle;}
 ul.footer-social li{

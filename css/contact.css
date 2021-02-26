@@ -1,4 +1,10 @@
 /* Contact Section */
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 #tf-contact{
 	padding: 80px 0;
 }
@@ -9,6 +15,7 @@ label {
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 }
+
 #tf-contact .form-control {
 	display: block;
 	width: 100%;
@@ -35,7 +42,7 @@ label {
 }
 
 button.btn.tf-btn.btn-default {
-	float: right;
+	margin: 0 auto;
 	background: #45c8fc;
 	border: 0;
 	border-radius: 0;
