@@ -1,6 +1,6 @@
 /* Home Style */
 #tf-home{
-	background: url(../img/01.jpg);
+	background: url(../img/pablo-heimplatz-EAvS-4KnGrk-unsplash.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -23,7 +23,8 @@
 
 #tf-home span.lead-2{
 	/* font-weight: 300; */
-	font-size: 0.5em;
+	/* font-size: 1em; */
+	font-style: italic;
 	/* text-align: right;
 	margin-right: 30vw; */
 }
@@ -40,11 +41,11 @@
 .color{
   font-weight: 600;
   /* padding: 5px; */
-	/* background-color: #45c8fc; */
+	color: #45c8fc;
 }
 
-a.fa.fa-angle-down {
-	padding: 10px 15px;
+a.fa.fa-chevron-down {
+	padding: 13px 15px;
 	color: #fff;
 	border: 2px solid #b4b4b4;
 	border-radius: 50%;
@@ -52,7 +53,7 @@ a.fa.fa-angle-down {
 	margin-top: 200px;
 	transition: all 0.5s;
 }
-a.fa.fa-angle-down:hover{
+a.fa.fa-chevron-down:hover{
 	background: #45c8fc;
 	color: #ffffff;
 	border: 2px solid #45c8fc;

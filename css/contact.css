@@ -1,6 +1,6 @@
 /* Contact Sections */
 #tf-contact{
-	padding: 40px 0;
+	padding: 80px 0;
 }
 
 .contact-container {
@@ -19,7 +19,7 @@
 	width: 70%;
 }
 
-.phone-contact-item, .address-contact-item {
+.contact-item {
 		display: flex;
 		align-items: center;
 		margin-bottom: 10px;
@@ -36,7 +36,7 @@
 }
 
 .map-section {
-	height: 50vh;
+	height: 70vh;
 	/* width: 60%; */
 }
 
@@ -83,25 +83,26 @@ label {
 }
 
 #tf-contact .form-control:focus {
-	border-color: inherit;
+	border-color: #45c8fc;
 	outline: 0;
 	-webkit-box-shadow: transparent;
 	box-shadow: transparent;
 }
 
-button.btn.tf-btn.btn-default {
-	margin: 0 auto;
-	background: #45c8fc;
-	border: 0;
-	border-radius: 0;
+.btn-default {
+	background: none;
+	border: 1px solid #ccc;
+	border-radius: 2px;
 	padding: 10px 40px;
-	color: #ffffff;
+	color: #45c8fc;
 	text-transform: uppercase;
   transition: 0.25s ease-in-out all;
 }
 
-button.btn.tf-btn.btn-default:hover {
-	background: #32a6d4;
+.btn-default:hover {
+	background: #45c8fc;
+	color: #fff;
+	border: 1px solid #fff;
 }
 
 .btn:active, .btn.active {
@@ -124,4 +125,57 @@ button.btn.tf-btn.btn-default:hover {
 
 .form-title {
 	text-align: center;
+}
+
+.form-control {
+	height: 45px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	outline: none;
+	box-shadow: 0;
+}
+.form-control-feedback {
+	color: #cccccc;
+}
+.has-feedback label.sr-only ~ .form-control-feedback {
+	top: 15px;
+}
+textarea {
+	resize: vertical;
+}
+
+.contact-text {
+	margin-bottom: 40px;
+}
+
+/* Social Links
+---------------------------------- */
+.social-links {
+	padding: 0;
+	list-style: none;
+	margin: 15px 0;
+}
+.social-links li {
+	margin: 10px 15px 10px 0;
+	display: inline-block;
+	font-size: 24px;
+}
+.social-links li a {
+	color: #333333;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.social-links li.youtube a:hover {
+	color: #b31217;
+}
+.social-links li.facebook a:hover {
+	color: #3b5998;
+}
+.social-links li.instagram a:hover {
+	color: #e1306c;
 }

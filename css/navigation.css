@@ -29,11 +29,6 @@ font-weight: 900;
 	height: 80%;
 }
 
-/* .navbar-header {
-	display: flex;
-	justify-content: space-between;
-} */
-
 #tf-menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 	color: #FFF;
@@ -50,7 +45,7 @@ font-weight: 900;
 .navbar-default .navbar-nav > .active > a:focus {
 	color: #45c8fc !important;
 	background-color: transparent;
-	font-weight: 700;
+	/* font-weight: 700; */
 }
 
 .navbar-toggle {
