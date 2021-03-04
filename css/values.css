@@ -1,14 +1,110 @@
 #tf-values{
-	padding: 80px 0;
+	padding: 80px 0 0 0 ;
 }
 
 .space{
 	margin-top: 40px;
 }
 
+.modal {
+	top: 20vh;
+}
+
+/* 
+.modal {
+	display: block;
+	height: 80vh; 
+	animation: 3s ease-in 1s 2 reverse both paused slidein;
+	position: fixed;
+	z-index: 999;
+}
+.modal-hidden {
+	top: -50vh;
+}
+
+.modal-visible {
+	top: 20vh;
+} */
+
+.modal-dialog {
+	width: 60vw;
+	height: 50vh;
+	display: block;
+	/* background-color: #fff; */
+}
+
+.modal-title {
+	max-width: 90%;
+	text-align: left;
+}
+
+.modal-content {
+	/* padding: 20px; */
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: flex-start;
+}
+
+.modal-body {
+	margin: 20px;
+	width: 70%;
+}
+
+#modal-text {
+	margin-top: 20px;
+	text-align: justify;
+}
+
+#modal-text li{
+	margin-bottom: 5px;
+}
+
+#modal-image {
+	width: 40%;
+	/* padding: 100px 30px; */
+	height: 50vh;
+	display: block;
+	/* background-image: url("../img/values/1_relationship_bg.jpg"); */
+	background-size: cover;
+	background-position: center;
+}
+
+.modal-image-block {
+	background-color: rgba(0, 0, 0, 0.466);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	/* display: flex;
+	align-items: center; */
+}
+
+#modal-value-image {
+	padding: 100px 30px;
+	filter: invert(1);
+	width: 200px;
+	opacity: 0.85;
+}
+
+.btn-close {
+	margin-right: 10px;
+	width: 30px;
+	height: auto;
+	background: none;
+	border: none;
+	color: #333;
+	font-size: 2em;
+	outline: none;
+}
+
+.btn-close:hover {
+	color: #000;
+}
+
 .value {
+	cursor: pointer;
   margin-bottom: 30px;
   transition: 0.25s ease-in-out all;
+	height: 30vh;
 }
 
 .value-img-block {
@@ -28,6 +124,21 @@
 	height: 50%;
   opacity: 0.9;
   transition: 0.25s ease-in-out all;
+}
+
+.value-subtitle {
+	transition: 0.25s ease-in-out all;
+	color: #2384aa;
+	text-decoration: underline;
+	opacity: 0;
+}
+
+.value:hover .value-subtitle {
+	opacity: 1;
+}
+
+.modal-content h4 {
+	font-weight: bold;
 }
 
 #tf-values .value:hover>.value-img-block{

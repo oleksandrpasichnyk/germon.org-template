@@ -16,6 +16,7 @@ font-weight: 900;
 
 .navbar-brand {
 	padding: 0;
+	outline: none;
 }
 
 .header-menu {

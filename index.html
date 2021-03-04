@@ -254,53 +254,70 @@
                 <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
             </div>
             <div class="space"></div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 value">
+            <div class="modal" id="values-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div id="modal-image">
+                            <!-- <img src="./img/values/1_relationship_bg.jpg" alt=""> -->
+                            <div class="modal-image-block">
+                                <img id="modal-value-image" alt="">
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="modal-title" id="modal-title"></h4>
+                            <p id="modal-text"></p>
+                        </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">&times;</button>
+                    </div>
+                </div>
+              </div>
+            <div class="row" id="values">
+                <div class="col-md-4 col-sm-6 value" data-valuename="relationship">
                     <div class="value-img-block">
                         <img class="value-img" src="./img/values/1_relationship.png" alt="relationship">
                     </div>
-                    <h4><strong>Особистими стосунками з Богом</strong></h4>
-                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    <h4><strong>Особистими<br> стосунками з Богом</strong></h4>
+                    <p class="value-subtitle">і це виявляється в тому, що ми...</p>
                 </div>
 
-                <div class="col-md-4 col-sm-6 value">
+                <div class="col-md-4 col-sm-6 value" data-valuename="glory">
                     <div class="value-img-block">
                         <img class="value-img" src="./img/values/2_glory.png" alt="glory">
                     </div>
-                    <h4><strong>Поклонінням Богові</strong></h4>
-                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    <h4><strong>Славою, хвалою і<br> поклонінням Богові</strong></h4>
+                    <p class="value-subtitle">і це виявляється в тому, що ми...</p>
                 </div>
 
-                <div class="col-md-4 col-sm-6 value">
+                <div class="col-md-4 col-sm-6 value" data-valuename="church">
                     <div class="value-img-block">
                         <img class="value-img" src="./img/values/3_church.png" alt="church">
                     </div>
-                    <h4><strong>Церквою</strong></h4>
-                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    <h4><strong>Спільнотою<br> (Церквою)</strong></h4>
+                    <p class="value-subtitle">і це виявляється в тому, що ми...</p>
                 </div>
 
-                <div class="col-md-4 col-sm-6 value">
+                <div class="col-md-4 col-sm-6 value" data-valuename="gospel">
                     <div class="value-img-block">
                         <img class="value-img" src="./img/values/4_gospel.png" alt="gospel">
                     </div>
-                    <h4><strong>Євангелією</strong></h4>
-                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    <h4><strong>Свідченням про<br> Ісуса Христа</strong></h4>
+                    <p class="value-subtitle">і це виявляється в тому, що ми...</p>
                 </div>
 
-                <div class="col-md-4 col-sm-6 value">
+                <div class="col-md-4 col-sm-6 value" data-valuename="serve">
                     <div class="value-img-block">
                         <img class="value-img" src="./img/values/5_serve.png" alt="serve">
                     </div>
-                    <h4><strong>Служінням дарами Духа Святого</strong></h4>
-                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    <h4><strong>Служінням дарами<br> Духа Святого</strong></h4>
+                    <p class="value-subtitle">і це виявляється в тому, що ми...</p>
                 </div>
 
-                <div class="col-md-4 col-sm-6 value">
+                <div class="col-md-4 col-sm-6 value" data-valuename="family">
                     <div class="value-img-block">
                         <img class="value-img" src="./img/values/6_family.png" alt="family">
                     </div>
                     <h4><strong>Сім'єю</strong></h4>
-                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    <p class="value-subtitle">і це виявляється в тому, що ми...</p>
                 </div>
             </div>
         </div>
@@ -571,6 +588,9 @@
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
     <!-- <script src="https://kit.fontawesome.com/2d266558be.js" crossorigin="anonymous"></script> -->
 
   </body>
