@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Церква ЄХБ "Преображення" м. Львів</title>
-    <meta name="description" content="Церква ЄХБ «Преображення» - новини, розклад зібрань, проповіді, заходи. Адреса: м. Львів, вул. Фабрична 21">
-    <meta name="keywords" content="львів,церква,євангельська церква,єхб преображення,львівська церква,церковь преображение ехб,церква у львові,баптиська церква">
+    <meta name="description"
+        content="Церква ЄХБ «Преображення» - новини, розклад зібрань, проповіді, заходи. Адреса: м. Львів, вул. Фабрична 21">
+    <meta name="keywords"
+        content="львів,церква,євангельська церква,єхб преображення,львівська церква,церковь преображение ехб,церква у львові,баптиська церква">
     <meta name="author" content="germon.org">
-    
+
     <!-- Favicons
     ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
@@ -24,7 +27,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="fonts/fontawesome-free-5.15.2-web/css/all.css">
 
     <!-- Slider
@@ -34,547 +37,599 @@
 
     <!-- Stylesheet
     ================================================== -->
-    <link rel="stylesheet" type="text/css"  href="css/main.css">
-    <link rel="stylesheet" type="text/css"  href="css/navigation.css">
-    <link rel="stylesheet" type="text/css"  href="css/home.css">
-    <link rel="stylesheet" type="text/css"  href="css/values.css">
-    <link rel="stylesheet" type="text/css"  href="css/contact.css">
-    <link rel="stylesheet" type="text/css"  href="css/gallery.css">
-    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/values.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
-    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400" rel="stylesheet" type="text/css">
+    <link
+        href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic"
+        rel="stylesheet" type="text/css">
+    <link
+        href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400"
+        rel="stylesheet" type="text/css">
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
-
+    <script type="text/javascript" src="js/index.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
+</head>
+
+<body>
+    <div id="loader">
+        <img src="./img/favicon.png" alt="">
+    </div>
     <!-- Navigation
     ==========================================-->
-    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
-      <div class="container header-menu">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand page-scroll" href="#tf-home"><img src="./img/logo_white.png" alt="logo"></a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#tf-home" class="page-scroll">Головна</a></li>
-            <li><a href="#tf-about" class="page-scroll">Про нас</a></li>
-            <li><a href="#tf-team" class="page-scroll">Наші пастори</a></li>
-            <li><a href="#tf-values" class="page-scroll">Наші цінності</a></li>
-            <li><a href="#tf-works" class="page-scroll">Галерея</a></li>
-            <li><a href="#tf-testimonials" class="page-scroll">Розклад зібрань</a></li>
-            <li><a href="#tf-contact" class="page-scroll">Контакти</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-
-    <!-- Home Page
-    ==========================================-->
-    <section id="tf-home" class="text-center screen-heigth">
-        <div class="overlay">
-            <div class="content">
-                <h1>Будь <span class="color">вільний!</span></h1>
-                <p class="lead">...і пізнаєте істину, а істина вас вільними зробить! <span class="lead-2">(Івана 8:32 UBIO)</span></p>
-                <a href="#tf-about" class="fa fa-chevron-down page-scroll"></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Us Page
-    ==========================================-->
-    <section id="tf-about" class="screen-heigth">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="img/02.png" class="img-responsive">
-                </div>
-                <div class="col-md-6">
-                    <div class="about-text">
-                        <div class="section-title">
-                            <h4>About us</h4>
-                            <h2>Some words <strong>about us</strong></h2>
-                            <hr>
-                            <div class="clearfix"></div>
-                        </div>
-                        <p class="intro">We love building and rebuilding brands through our  specific skills. Using colour, fonts, and illustration, we brand companies in a way they will never forget.</p>
-                        <ul class="about-list">
-                            <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>Mission</strong> - <em>We deliver uniqueness and quality</em>
-                            </li>
-                            <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>Skills</strong> - <em>Delivering fast and excellent results</em>
-                            </li>
-                            <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>Clients</strong> - <em>Satisfied clients thanks to our experience</em>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Page
-    ==========================================-->
-    <section id="tf-team" class="text-center">
-        <div class="overlay">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Meet <strong>our team</strong></h2>
-                    <div class="line">
-                        <hr>
-                    </div>
+    <main id="page-content">
+        <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+            <div class="container header-menu">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#tf-home"><img src="./img/logo_white.png" alt="logo"></a>
                 </div>
 
-                <div id="team" class="owl-carousel owl-theme row">
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section
-    ==========================================-->
-    <section id="tf-values" class="text-center screen-heigth">
-        <div class="container">
-            <div class="section-title center">
-                <h2><strong>Ми цінуємо</strong></h2>
-                <div class="line">
-                    <hr>
-                </div>
-                <!-- <div class="clearfix"></div>
-                <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
-            </div>
-            <div class="space"></div>
-            <div class="modal" id="values-modal">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div id="modal-image">
-                            <!-- <img src="./img/values/1_relationship_bg.jpg" alt=""> -->
-                            <div class="modal-image-block">
-                                <img id="modal-value-image" alt="">
-                            </div>
-                        </div>
-                        <div class="modal-body">
-                            <h4 class="modal-title" id="modal-title"></h4>
-                            <p id="modal-text"></p>
-                        </div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">&times;</button>
-                    </div>
-                </div>
-              </div>
-            <div class="row" id="values">
-                <div class="col-md-4 col-sm-6 value" data-valuename="relationship">
-                    <div class="value-img-block">
-                        <img class="value-img" src="./img/values/1_relationship.png" alt="relationship">
-                    </div>
-                    <h4><strong>Особистими<br> стосунками з Богом</strong></h4>
-                    <p class="value-subtitle">читати...</p>
-                </div>
-
-                <div class="col-md-4 col-sm-6 value" data-valuename="glory">
-                    <div class="value-img-block">
-                        <img class="value-img" src="./img/values/2_glory.png" alt="glory">
-                    </div>
-                    <h4><strong>Славою, хвалою і<br> поклонінням Богові</strong></h4>
-                    <p class="value-subtitle">і це виявляється в тому, що ми...</p>
-                </div>
-
-                <div class="col-md-4 col-sm-6 value" data-valuename="church">
-                    <div class="value-img-block">
-                        <img class="value-img" src="./img/values/3_church.png" alt="church">
-                    </div>
-                    <h4><strong>Спільнотою<br> (Церквою)</strong></h4>
-                    <p class="value-subtitle">і це виявляється в тому, що ми...</p>
-                </div>
-
-                <div class="col-md-4 col-sm-6 value" data-valuename="gospel">
-                    <div class="value-img-block">
-                        <img class="value-img" src="./img/values/4_gospel.png" alt="gospel">
-                    </div>
-                    <h4><strong>Свідченням про<br> Ісуса Христа</strong></h4>
-                    <p class="value-subtitle">і це виявляється в тому, що ми...</p>
-                </div>
-
-                <div class="col-md-4 col-sm-6 value" data-valuename="serve">
-                    <div class="value-img-block">
-                        <img class="value-img" src="./img/values/5_serve.png" alt="serve">
-                    </div>
-                    <h4><strong>Служінням дарами<br> Духа Святого</strong></h4>
-                    <p class="value-subtitle">і це виявляється в тому, що ми...</p>
-                </div>
-
-                <div class="col-md-4 col-sm-6 value" data-valuename="family">
-                    <div class="value-img-block">
-                        <img class="value-img" src="./img/values/6_family.png" alt="family">
-                    </div>
-                    <h4><strong>Сім'єю</strong></h4>
-                    <p class="value-subtitle">і це виявляється в тому, що ми...</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Section
-    ==========================================-->
-    <div id="tf-works">
-        <div class="container"> <!-- Container -->
-            <div class="section-title text-center center">
-                <h2><strong>Галерея</strong></h2>
-                <div class="line">
-                    <hr>
-                </div>
-            </div>
-            <div class="space"></div>
-
-            <div class="categories">
-                
-                <ul class="cat">
-                    <li class="pull-left"><h4>Filter by Type:</h4></li>
-                    <li class="pull-right">
-                        <ol class="type">
-                            <li><a href="#" data-filter="*" class="active">Всі</a></li>
-                            <li><a href="#" data-filter=".web">Зібрання</a></li>
-                            <li><a href="#" data-filter=".photography">Дитяче служіння</a></li>
-                            <li><a href="#" data-filter=".app" >Молодіжне служіння</a></li>
-                            <li><a href="#" data-filter=".branding">Група прославлення</a></li>
-                        </ol>
-                    </li>
-                </ul>
-                <div class="clearfix"></div>
-            </div>
-
-            <div id="lightbox" class="row">
-
-                <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/gallery/IMG_0076.JPG" class="gallery-image" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 photography app">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/gallery/IMG_0226.JPG" class="gallery-image" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/gallery/IMG_0340.JPG" class="gallery-image" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/gallery/IMG_0497.JPG" class="gallery-image" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/gallery/IMG_0607.JPG" class="gallery-image" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 app">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/gallery/IMG_1026.JPG" class="gallery-image" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Testimonials Section
-    ==========================================-->
-    <div id="tf-testimonials" class="text-center">
-        <div class="overlay">
-            <div class="container">
-                <div class="section-title center">
-                    <h2><strong>Our clients’</strong> testimonials</h2>
-                    <div class="line">
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div id="testimonial" class="owl-carousel owl-theme">
-                            <div class="item">
-                                <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
-                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
-                            </div>
-
-                            <div class="item">
-                                <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
-                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
-                            </div>
-
-                            <div class="item">
-                                <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
-                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact Sections
-    ==========================================-->
-
-    <div id="tf-contact" class="contact-section">
-        <div class="container">
-            <div class="text-center">
-                <div class="section-title center">
-                    <h2><strong>Контакти</strong></h2>
-                    <div class="line">
-                        <hr>
-                    </div>
-                </div>
-            </div>
-            <div class="space"></div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="footer-content">
-                        <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam magnam natus tempora cumque, aliquam deleniti voluptatibus voluptas. Repellat vel, et itaque commodi iste ab, laudantium voluptas deserunt nobis.</p>
-                        <ul class="list-icons">
-                            <li class="contact-item"><div class="contact-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div> 79041, м. Львів, вул. Фабрична, 21</li>
-                            <li class="contact-item"><div class="contact-icon">
-                                <i class="fas fa-phone-alt"></i>
-                            </div> +38 067 672 2197; +38 032 292 49 86</li>
-                            <li class="contact-item"><div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div> mount.germon@gmail.com</li>
-                        </ul>
-                        <ul class="social-links">
-                            <li class="instagram"><a target="_blank" href="https://www.instagram.com/germon_church"><i class="fab fa-instagram-square"></i></a></li>
-                            <li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
-                            <li class="facebook"><a target="_blank" href="https://www.facebook.com/pages/HtmlCoder/714570988650168"><i class="fab fa-facebook"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="footer-content">
-                        <form role="form" id="footer-form">
-                            <div class="form-group has-feedback">
-                                <label class="sr-only" for="name2">Ім'я</label>
-                                <input type="text" class="form-control" id="name2" placeholder="Ім'я" name="name2" required autocomplete="none">
-                                <i class="fa fa-user form-control-feedback"></i>
-                            </div>
-                            <div class="form-group has-feedback">
-                                <label class="sr-only" for="email2">Email</label>
-                                <input type="email" class="form-control" id="email2" placeholder="Email" name="email2" required>
-                                <i class="fa fa-envelope form-control-feedback"></i>
-                            </div>
-                            <div class="form-group has-feedback">
-                                <label class="sr-only" for="message2">Повідомлення</label>
-                                <textarea class="form-control" rows="8" id="message2" placeholder="Повідомлення" name="message2" required></textarea>
-                                <i class="fa fa-pencil-alt form-control-feedback"></i>
-                            </div>
-                            <input type="submit" value="Надіслати" class="btn btn-default">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <section class="map-section">
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.4931903661036!2d23.97352201567509!3d49.833189979395016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae7619c7363cd%3A0x9e230eb26eae10d1!2z0KbQtdGA0LrQstCwINCf0YDQtdC-0LHRgNCw0LbQtdC90L3Rjw!5e0!3m2!1suk!2sua!4v1614589156318!5m2!1suk!2sua" allowfullscreen="" loading="lazy"></iframe>
-    </section>
-    
-    <section class="footer-section">
-        <div class="text-center">
-        
-        </div>
-    
-        <footer id="footer">
-            <div class="container">
-                <div class="pull-left fnav">
-                    <p>&#169; 2021 | Церква ЄХБ «Преображення»</p>
-                </div>
-                <div class="pull-right fnav">
-                    <ul class="footer-social">
-                        <li><a target="_blank" href="https://www.facebook.com/germon.lviv"><i class="fab fa-facebook"></i></a></li>
-                        <li><a target="_blank" href="https://www.instagram.com/germon_church"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a target="_blank" href="https://www.youtube.com/c/germonlviv"><i class="fab fa-youtube"></i></a></li>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#tf-home" class="page-scroll">Головна</a></li>
+                        <li><a href="#tf-about" class="page-scroll">Про нас</a></li>
+                        <li><a href="#tf-team" class="page-scroll">Наші пастори</a></li>
+                        <li><a href="#tf-values" class="page-scroll">Наші цінності</a></li>
+                        <li><a href="#tf-works" class="page-scroll">Галерея</a></li>
+                        <li><a href="#tf-testimonials" class="page-scroll">Розклад зібрань</a></li>
+                        <li><a href="#tf-contact" class="page-scroll">Контакти</a></li>
                     </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!-- Home Page
+          ==========================================-->
+        <section id="tf-home" class="text-center screen-heigth">
+            <div class="overlay">
+                <div class="content">
+                    <h1>Будь <span class="color">вільний!</span></h1>
+                    <p class="lead">...і пізнаєте істину, а істина вас вільними зробить! <span class="lead-2">(Івана
+                            8:32 UBIO)</span></p>
+                    <a href="#tf-about" class="fa fa-chevron-down page-scroll"></a>
                 </div>
             </div>
-        </footer>
-    </section>
-    
+        </section>
+
+        <!-- About Us Page
+          ==========================================-->
+        <section id="tf-about" class="screen-heigth">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/02.png" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about-text">
+                            <div class="section-title">
+                                <h4>About us</h4>
+                                <h2>Some words <strong>about us</strong></h2>
+                                <hr>
+                                <div class="clearfix"></div>
+                            </div>
+                            <p class="intro">We love building and rebuilding brands through our specific skills. Using
+                                colour, fonts, and illustration, we brand companies in a way they will never forget.</p>
+                            <ul class="about-list">
+                                <li>
+                                    <span class="fa fa-dot-circle-o"></span>
+                                    <strong>Mission</strong> - <em>We deliver uniqueness and quality</em>
+                                </li>
+                                <li>
+                                    <span class="fa fa-dot-circle-o"></span>
+                                    <strong>Skills</strong> - <em>Delivering fast and excellent results</em>
+                                </li>
+                                <li>
+                                    <span class="fa fa-dot-circle-o"></span>
+                                    <strong>Clients</strong> - <em>Satisfied clients thanks to our experience</em>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Page
+          ==========================================-->
+        <section id="tf-team" class="text-center">
+            <div class="overlay">
+                <div class="container">
+                    <div class="section-title center">
+                        <h2>Meet <strong>our team</strong></h2>
+                        <div class="line">
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div id="team" class="owl-carousel owl-theme row">
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
+                                <div class="caption">
+                                    <h3>Jenn Gwapa</h3>
+                                    <p>CEO / Founder</p>
+                                    <p>Do not seek to change what has come before. Seek to create that which has not.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
+                                <div class="caption">
+                                    <h3>Jenn Gwapa</h3>
+                                    <p>CEO / Founder</p>
+                                    <p>Do not seek to change what has come before. Seek to create that which has not.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
+                                <div class="caption">
+                                    <h3>Jenn Gwapa</h3>
+                                    <p>CEO / Founder</p>
+                                    <p>Do not seek to change what has come before. Seek to create that which has not.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
+                                <div class="caption">
+                                    <h3>Jenn Gwapa</h3>
+                                    <p>CEO / Founder</p>
+                                    <p>Do not seek to change what has come before. Seek to create that which has not.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
+                                <div class="caption">
+                                    <h3>Jenn Gwapa</h3>
+                                    <p>CEO / Founder</p>
+                                    <p>Do not seek to change what has come before. Seek to create that which has not.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
+                                <div class="caption">
+                                    <h3>Jenn Gwapa</h3>
+                                    <p>CEO / Founder</p>
+                                    <p>Do not seek to change what has come before. Seek to create that which has not.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
+                                <div class="caption">
+                                    <h3>Jenn Gwapa</h3>
+                                    <p>CEO / Founder</p>
+                                    <p>Do not seek to change what has come before. Seek to create that which has not.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
+                                <div class="caption">
+                                    <h3>Jenn Gwapa</h3>
+                                    <p>CEO / Founder</p>
+                                    <p>Do not seek to change what has come before. Seek to create that which has not.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section
+          ==========================================-->
+        <section id="tf-values" class="text-center screen-heigth">
+            <div class="container">
+                <div class="section-title center">
+                    <h2><strong>Ми цінуємо</strong></h2>
+                    <div class="line">
+                        <hr>
+                    </div>
+                    <!-- <div class="clearfix"></div>
+                      <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
+                </div>
+                <div class="space"></div>
+                <div class="modal" id="values-modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div id="modal-image">
+                                <!-- <img src="./img/values/1_relationship_bg.jpg" alt=""> -->
+                                <div class="modal-image-block">
+                                    <img id="modal-value-image" alt="">
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <h4 class="modal-title" id="modal-title"></h4>
+                                <p id="modal-text"></p>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close">&times;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="values">
+                    <div class="col-md-4 col-sm-6 value" data-valuename="relationship">
+                        <div class="value-img-block">
+                            <img class="value-img" src="./img/values/1_relationship.png" alt="relationship">
+                        </div>
+                        <h4><strong>Особистими<br> стосунками з Богом</strong></h4>
+                        <p class="value-subtitle">читати...</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 value" data-valuename="glory">
+                        <div class="value-img-block">
+                            <img class="value-img" src="./img/values/2_glory.png" alt="glory">
+                        </div>
+                        <h4><strong>Славою, хвалою і<br> поклонінням Богові</strong></h4>
+                        <p class="value-subtitle">і це виявляється в тому, що ми...</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 value" data-valuename="church">
+                        <div class="value-img-block">
+                            <img class="value-img" src="./img/values/3_church.png" alt="church">
+                        </div>
+                        <h4><strong>Спільнотою<br> (Церквою)</strong></h4>
+                        <p class="value-subtitle">і це виявляється в тому, що ми...</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 value" data-valuename="gospel">
+                        <div class="value-img-block">
+                            <img class="value-img" src="./img/values/4_gospel.png" alt="gospel">
+                        </div>
+                        <h4><strong>Свідченням про<br> Ісуса Христа</strong></h4>
+                        <p class="value-subtitle">і це виявляється в тому, що ми...</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 value" data-valuename="serve">
+                        <div class="value-img-block">
+                            <img class="value-img" src="./img/values/5_serve.png" alt="serve">
+                        </div>
+                        <h4><strong>Служінням дарами<br> Духа Святого</strong></h4>
+                        <p class="value-subtitle">і це виявляється в тому, що ми...</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 value" data-valuename="family">
+                        <div class="value-img-block">
+                            <img class="value-img" src="./img/values/6_family.png" alt="family">
+                        </div>
+                        <h4><strong>Сім'єю</strong></h4>
+                        <p class="value-subtitle">і це виявляється в тому, що ми...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section
+          ==========================================-->
+        <div id="tf-works">
+            <div class="container">
+                <!-- Container -->
+                <div class="section-title text-center center">
+                    <h2><strong>Галерея</strong></h2>
+                    <div class="line">
+                        <hr>
+                    </div>
+                </div>
+                <div class="space"></div>
+
+                <div class="categories">
+
+                    <ul class="cat">
+                        <li class="pull-left">
+                            <h4>Filter by Type:</h4>
+                        </li>
+                        <li class="pull-right">
+                            <ol class="type">
+                                <li><a href="#" data-filter="*" class="active">Всі</a></li>
+                                <li><a href="#" data-filter=".web">Зібрання</a></li>
+                                <li><a href="#" data-filter=".photography">Дитяче служіння</a></li>
+                                <li><a href="#" data-filter=".app">Молодіжне служіння</a></li>
+                                <li><a href="#" data-filter=".branding">Група прославлення</a></li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div id="lightbox" class="row">
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 branding">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="#">
+                                    <div class="hover-text">
+                                        <h4>Logo Design</h4>
+                                        <small>Branding</small>
+                                        <div class="clearfix"></div>
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                    <img src="img/gallery/IMG_0076-min.JPG" class="gallery-image" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 photography app">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="#">
+                                    <div class="hover-text">
+                                        <h4>Logo Design</h4>
+                                        <small>Branding</small>
+                                        <div class="clearfix"></div>
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                    <img src="img/gallery/IMG_0226-min.JPG" class="gallery-image" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 branding">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="#">
+                                    <div class="hover-text">
+                                        <h4>Logo Design</h4>
+                                        <small>Branding</small>
+                                        <div class="clearfix"></div>
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                    <img src="img/gallery/IMG_0340-min.JPG" class="gallery-image" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 branding">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="#">
+                                    <div class="hover-text">
+                                        <h4>Logo Design</h4>
+                                        <small>Branding</small>
+                                        <div class="clearfix"></div>
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                    <img src="img/gallery/IMG_0497-min.JPG" class="gallery-image" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 web">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="#">
+                                    <div class="hover-text">
+                                        <h4>Logo Design</h4>
+                                        <small>Branding</small>
+                                        <div class="clearfix"></div>
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                    <img src="img/gallery/IMG_0607-min.JPG" class="gallery-image" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 app">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="#">
+                                    <div class="hover-text">
+                                        <h4>Logo Design</h4>
+                                        <small>Branding</small>
+                                        <div class="clearfix"></div>
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                    <img src="img/gallery/IMG_1026-min.JPG" class="gallery-image" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials Section
+          ==========================================-->
+        <div id="tf-testimonials" class="text-center">
+            <div class="overlay">
+                <div class="container">
+                    <div class="section-title center">
+                        <h2><strong>Our clients’</strong> testimonials</h2>
+                        <div class="line">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div id="testimonial" class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <h5>This book is a treatise on the theory of ethics, very popular during the
+                                        Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+                                        comes from a line in section 1.10.32.</h5>
+                                    <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
+                                </div>
+
+                                <div class="item">
+                                    <h5>This book is a treatise on the theory of ethics, very popular during the
+                                        Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+                                        comes from a line in section 1.10.32.</h5>
+                                    <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
+                                </div>
+
+                                <div class="item">
+                                    <h5>This book is a treatise on the theory of ethics, very popular during the
+                                        Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+                                        comes from a line in section 1.10.32.</h5>
+                                    <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Sections
+          ==========================================-->
+
+        <div id="tf-contact" class="contact-section">
+            <div class="container">
+                <div class="text-center">
+                    <div class="section-title center">
+                        <h2><strong>Контакти</strong></h2>
+                        <div class="line">
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="footer-content">
+                            <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam
+                                magnam natus tempora cumque, aliquam deleniti voluptatibus voluptas. Repellat vel, et
+                                itaque commodi iste ab, laudantium voluptas deserunt nobis.</p>
+                            <ul class="list-icons">
+                                <li class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div> 79041, м. Львів, вул. Фабрична, 21
+                                </li>
+                                <li class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div> +38 067 672 2197; +38 032 292 49 86
+                                </li>
+                                <li class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div> mount.germon@gmail.com
+                                </li>
+                            </ul>
+                            <ul class="social-links">
+                                <li class="instagram"><a target="_blank"
+                                        href="https://www.instagram.com/germon_church"><i
+                                            class="fab fa-instagram-square"></i></a></li>
+                                <li class="youtube"><a target="_blank" href="http://www.youtube.com"><i
+                                            class="fab fa-youtube"></i></a></li>
+                                <li class="facebook"><a target="_blank"
+                                        href="https://www.facebook.com/pages/HtmlCoder/714570988650168"><i
+                                            class="fab fa-facebook"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="footer-content">
+                            <form role="form" id="footer-form">
+                                <div class="form-group has-feedback">
+                                    <label class="sr-only" for="name2">Ім'я</label>
+                                    <input type="text" class="form-control" id="name2" placeholder="Ім'я" name="name2"
+                                        required autocomplete="none">
+                                    <i class="fa fa-user form-control-feedback"></i>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <label class="sr-only" for="email2">Email</label>
+                                    <input type="email" class="form-control" id="email2" placeholder="Email"
+                                        name="email2" required>
+                                    <i class="fa fa-envelope form-control-feedback"></i>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <label class="sr-only" for="message2">Повідомлення</label>
+                                    <textarea class="form-control" rows="8" id="message2" placeholder="Повідомлення"
+                                        name="message2" required></textarea>
+                                    <i class="fa fa-pencil-alt form-control-feedback"></i>
+                                </div>
+                                <input type="submit" value="Надіслати" class="btn btn-default">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="map-section">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.4931903661036!2d23.97352201567509!3d49.833189979395016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae7619c7363cd%3A0x9e230eb26eae10d1!2z0KbQtdGA0LrQstCwINCf0YDQtdC-0LHRgNCw0LbQtdC90L3Rjw!5e0!3m2!1suk!2sua!4v1614589156318!5m2!1suk!2sua"
+                allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section class="footer-section">
+            <div class="text-center">
+
+            </div>
+
+            <footer id="footer">
+                <div class="container">
+                    <div class="pull-left fnav">
+                        <p>&#169; 2021 | Церква ЄХБ «Преображення»</p>
+                    </div>
+                    <div class="pull-right fnav">
+                        <ul class="footer-social">
+                            <li><a target="_blank" href="https://www.facebook.com/germon.lviv"><i
+                                        class="fab fa-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/germon_church"><i
+                                        class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/c/germonlviv"><i
+                                        class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </main>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
@@ -588,10 +643,13 @@
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/values.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
 
     <!-- <script src="https://kit.fontawesome.com/2d266558be.js" crossorigin="anonymous"></script> -->
 
-  </body>
+</body>
+
 </html>
