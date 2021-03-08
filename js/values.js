@@ -16,7 +16,7 @@ const valuesContent = [
     </ul>
     `,
     imagePath: './img/values/1_relationship.png',
-    bgImagePath: '../img/values/1_relationship_bg.jpg'
+    bgImagePath: '../img/values/1_relationship_bg-min.jpg'
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const valuesContent = [
     </ul>
     `,
     imagePath: './img/values/2_glory.png',
-    bgImagePath: '../img/values/2_glory_bg.jpg'
+    bgImagePath: '../img/values/2_glory_bg-min.jpg'
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ const valuesContent = [
     </ul>
     `,
     imagePath: './img/values/3_church.png',
-    bgImagePath: '../img/values/3_church_bg.jpg'
+    bgImagePath: '../img/values/3_church_bg-min.jpg'
   },
   {
     id: 4,
@@ -89,9 +89,6 @@ const valuesContent = [
 ];
 
 const showModal = event => {
-  // modal.classList.add('modal-visible');
-  // modal.classList.remove('modal-hidden');
-
   let targetValue = event.target.closest('.value');
   let valueName = targetValue.dataset.valuename;
   let value = valuesContent.find(value => value.name === valueName);
@@ -99,13 +96,13 @@ const showModal = event => {
   document.getElementById('modal-title').textContent = value.title;
   document.getElementById('modal-text').innerHTML = value.text;
   document.getElementById('modal-value-image').src = value.imagePath;
-  modal.style.display = 'block';
+  // modal.onload() = function(){
+    modal.style.display = 'block';
+  // }
 };
 
 const hideModal = () => {
   modal.style.display = 'none';
-  // modal.classList.remove('modal-visible');
-  // modal.classList.add('modal-hidden');
 };
 
 valuesContainer.addEventListener('click', (event) => {
@@ -121,28 +118,3 @@ window.onclick = function(event) {
     hideModal();
   }
 }
-
-const renderModal = (title, text, imagePath) => {
-  let valueModal = document.createElement('div');
-  valueModal.classList.add('value-modal');
-  let valueTitle = document.createElement('h3');
-  valueTitle.textContent = title;
-  valueTitle.classList.add('value-title');
-  let valueText = document.createElement('p');
-  valueText.textContent = text;
-  let valueImage = document.createElement('img');
-  valueImage.src = imagePath;
-  valueImage.classList.add('value-image');
-  let valueContent = document.createElement('div');
-  valueContent.classList.add('value-content');
-  valueContent.append(valueText, valueImage);
-  valueModal.append(valueTitle, valueContent);
-  return valueModal;
-};
-
-
-
-
-
-
-

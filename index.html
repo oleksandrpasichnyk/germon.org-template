@@ -43,6 +43,7 @@
     <link rel="stylesheet" type="text/css" href="css/values.css">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="css/events.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
@@ -92,7 +93,7 @@
                         <li><a href="#tf-team" class="page-scroll">Наші пастори</a></li>
                         <li><a href="#tf-values" class="page-scroll">Наші цінності</a></li>
                         <li><a href="#tf-works" class="page-scroll">Галерея</a></li>
-                        <li><a href="#tf-testimonials" class="page-scroll">Розклад зібрань</a></li>
+                        <li><a href="#tf-events" class="page-scroll">Розклад заходів</a></li>
                         <li><a href="#tf-contact" class="page-scroll">Контакти</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -482,39 +483,82 @@
 
         <!-- Testimonials Section
           ==========================================-->
-        <div id="tf-testimonials" class="text-center">
+        <div id="tf-events" class="text-center">
             <div class="overlay">
                 <div class="container">
                     <div class="section-title center">
-                        <h2><strong>Our clients’</strong> testimonials</h2>
+                        <h2><strong>Наші заходи</strong></h2>
                         <div class="line">
                             <hr>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <div id="testimonial" class="owl-carousel owl-theme">
-                                <div class="item">
-                                    <h5>This book is a treatise on the theory of ethics, very popular during the
-                                        Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
-                                        comes from a line in section 1.10.32.</h5>
-                                    <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
-                                </div>
+                </div>
+                <div class="events-content">
+                    <div class="filter-section">
+                        <p>Оберіть категорію:</p>
 
-                                <div class="item">
-                                    <h5>This book is a treatise on the theory of ethics, very popular during the
-                                        Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
-                                        comes from a line in section 1.10.32.</h5>
-                                    <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
-                                </div>
+                        <div class="filter-item">
+                            <input type="checkbox" id="all-events" name="category1" checked>
+                            <label for="all-events">Всі заходи</label>
+                        </div>
 
-                                <div class="item">
-                                    <h5>This book is a treatise on the theory of ethics, very popular during the
-                                        Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
-                                        comes from a line in section 1.10.32.</h5>
-                                    <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
+                        <div class="filter-item">
+                            <input type="checkbox" id="family" name="category-item">
+                            <label for="family">Сімейні</label>
+                        </div>
+
+                        <div class="filter-item">
+                            <input type="checkbox" id="children" name="category-item">
+                            <label for="children">Для дітей</label>
+                        </div>
+
+                        <div class="filter-item">
+                            <input type="checkbox" id="youth" name="category-item">
+                            <label for="youth">Для молоді</label>
+                        </div>
+
+                        <div class="filter-item">
+                            <input type="checkbox" id="women" name="category-item">
+                            <label for="women">Для жінок</label>
+                        </div>
+
+                        <div class="filter-item">
+                            <input type="checkbox" id="online" name="category-item">
+                            <label for="online">Онлайн</label>
+                        </div>
+                    </div>
+                    <div class="week-calendar-section">
+                        <div class="week-calendar">
+                            <ul class="week-days-columns">
+                                <div class="day-section" data-day-id="1">
+                                    <h5 class="day-title">Понеділок</h5>
+                                    <div class="day-events" id="mon-events"></div>
                                 </div>
-                            </div>
+                                <div class="day-section" data-day-id="2">
+                                    <h5 class="day-title">Вівторок</h5>
+                                    <div class="day-events" id="tue-events"></div>
+                                </div>
+                                <div class="day-section" data-day-id="3">
+                                    <h5 class="day-title">Середа</h5>
+                                    <div class="day-events" id="wed-events"></div>
+                                </div>
+                                <div class="day-section" data-day-id="4">
+                                    <h5 class="day-title">Четвер</h5>
+                                    <div class="day-events" id="thur-events"></div>
+                                </div>
+                                <div class="day-section" data-day-id="5">
+                                    <h5 class="day-title">П'ятниця</h5>
+                                    <div class="day-events" id="fri-events"></div>
+                                </div>
+                                <div class="day-section" data-day-id="6">
+                                    <h5 class="day-title">Субота</h5>
+                                    <div class="day-events" id="sat-events"></div>
+                                </div>
+                                <div class="day-section" data-day-id="0">
+                                    <h5 class="day-title">Неділя</h5>
+                                    <div class="day-events" id="sun-events"></div>
+                                </div>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -644,6 +688,7 @@
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/values.js"></script>
+    <script type="text/javascript" src="js/events.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script>

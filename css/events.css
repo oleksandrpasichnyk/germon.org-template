@@ -1,0 +1,120 @@
+/* Testimonials Section */
+#tf-events{
+	background: url(../img/05.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+  min-height: 100vh;
+}
+
+#tf-events .overlay{
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+	/* padding: 80px 0; */
+	background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.events-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 10px;
+}
+
+.filter-section {
+  margin-top: 50px;
+  display: block;
+  text-align: left;
+  width: 10%;
+}
+
+.filter-section p{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.filter-item {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter-item input {
+  margin: 0;
+  border: 1px solid #ccc;
+  outline: none;
+  cursor: pointer;
+}
+
+.filter-item label {
+  margin: 0;
+  padding-left: 10px;
+  outline: none;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.filter-item label:hover {
+  color: #45c8fc;
+}
+
+.week-calendar-section {
+  width: 80%;
+}
+
+.week-days-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day-section{
+  width: 14%;
+}
+
+.day-title {
+  padding: 10px;
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+}
+
+.current-day-title {
+  background-color: #45c8fc;
+  border-radius: 2px;
+  border-color: #ffffff00;
+}
+
+.event-card {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: #333;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.event-card-title {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.empty-item {
+  display: none;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.7em;
+  margin: 5px;
+  color: #fff;
+  background-color: #333;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
