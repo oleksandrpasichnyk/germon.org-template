@@ -22,29 +22,13 @@
 
 
 #tf-home span.lead-2{
-	/* font-weight: 300; */
-	/* font-size: 1em; */
 	font-style: italic;
-	/* text-align: right;
-	margin-right: 30vw; */
 }
 
 .main-page-content{
 	position: relative;
 	padding: 20% 0 0;
-	/* animation: zoomIn 1s; */
 }
-
-/* @keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-
-  50% {
-    opacity: 1;
-  }
-} */
 
 .main-page-content h1{
 	font-weight: 300;
@@ -52,7 +36,6 @@
 
 .color{
   font-weight: 600;
-  /* padding: 5px; */
 	color: #45c8fc;
 }
 

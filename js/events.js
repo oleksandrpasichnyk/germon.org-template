@@ -215,15 +215,12 @@ function renderEvents(categories){
       }
     });
   }else { // рендерить весь список подій
-    // cleanEvents();
     eventsList.forEach(event => {
       let index = renderedEventsList.indexOf(event); // вертає індекс події зі списку вже зренджерених
       if(index < 0){
         list.push(event);
       }
     });
-    // renderedEventsList = [];
-    // list = eventsList;
   }
 
   
@@ -233,8 +230,6 @@ function renderEvents(categories){
     dayColumn.append(eventCard);
     renderedEventsList.push(event);
   });
-  console.log(renderedEventsList);
-
 }
 
 renderEvents();
