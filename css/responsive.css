@@ -32,3 +32,27 @@ label{
     padding: 22% 10%;
 }
 }
+
+
+/* Contact section */
+
+@media (max-width: 768px){
+    #tf-contact{
+        padding: 30px 0;
+    }
+    
+    .contact-container {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .main-info-section {
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .contact-form-section {
+        margin-top: 30px;
+        width: 100%;
+    }
+}

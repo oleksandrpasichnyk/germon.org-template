@@ -29,12 +29,24 @@
 	margin-right: 30vw; */
 }
 
-.content{
+.main-page-content{
 	position: relative;
 	padding: 20% 0 0;
+	/* animation: zoomIn 1s; */
 }
 
-.content h1{
+/* @keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+} */
+
+.main-page-content h1{
 	font-weight: 300;
 }
 

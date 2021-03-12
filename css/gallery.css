@@ -1,6 +1,6 @@
 /* Gallery Section 
 ==============================*/
-#tf-works{
+#tf-gallery{
 	padding: 80px 0;
 }
 .gallery-image {
@@ -15,7 +15,7 @@
 ul.cat li{
 	display: inline-block;
 }
-#tf-works li.pull-right {
+#tf-gallery li.pull-right {
 	margin-top: 10px;
 }
 ol.type li{
@@ -107,7 +107,7 @@ ol.type li a.active { font-weight: 700; }
 .hover-bg:hover .hover-text{
 	opacity: 1;
 }
-#tf-works i.fa {
+#tf-gallery i.fa {
 	height: 30px;
 	width: 30px;
 	border: 1px solid #FCAC45;

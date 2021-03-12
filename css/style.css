@@ -13,6 +13,36 @@ ul.about-list li span{
 	margin-right: 10px;
 }
 
+.screen-img {
+	animation: slideInLeft 0.5s;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.about-content {
+	animation: slideInRight 1s;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 /* Team Section */
 #tf-team{
 	background: url(../img/03.jpg);
