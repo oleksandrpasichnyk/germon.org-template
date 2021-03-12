@@ -1,26 +1,29 @@
 /* About Section */
-#tf-about{
-  /* min-height: 70vh; */
-  background-image: url('../img/about-bg.jpg');
-  background-size: cover;
-	/* background-position: center; */
-	/* background-attachment: fixed; */
-	background-repeat: no-repeat;
+
+.goal-content {
+  margin: 8vh 1vw;
 }
-#tf-about .overlay{
-	background: -moz-linear-gradient(right,  rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 17%, rgba(255,255,255,0.75) 35%, rgba(255,255,255,0.2) 62%, rgba(255,255,255,0.0) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, right, left, color-stop(0%,rgba(255,255,255,1)), color-stop(17%,rgba(255,255,255,0.9)), color-stop(35%,rgba(255,255,255,0.75)), color-stop(62%,rgba(255,255,255,0.2)), color-stop(100%,rgba(255,255,255,0.0))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.9) 17%,rgba(255,255,255,0.75) 35%,rgba(255,255,255,0.2) 62%,rgba(255,255,255,0.0) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(right,  rgba(255,255,255,255.8) 0%,rgba(255,255,255,0.9) 17%,rgba(255,255,255,0.75) 35%,rgba(255,255,255,0.2) 62%,rgba(255,255,255,0.0) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.9) 17%,rgba(255,255,255,0.75) 35%,rgba(255,255,255,0.2) 62%,rgba(255,255,255,0.0) 100%); /* IE10+ */
-	background: linear-gradient(to left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.9) 17%,rgba(255,255,255,0.75) 35%,rgba(255,255,255,0.2) 62%,rgba(255,255,255,0.0) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
-	min-height: 70vh;
-	background-attachment: fixed;
+
+.goal-text-intro {
+  font-size: 1.4em;
 }
+
+.goal-text-intro strong{
+  color: #fcac45;
+}
+
+.goal-text-block {
+  margin-left: 20px;
+}
+
+.goal-text {
+  font-style: italic;
+  font-size: 1.4em;
+}
+
 ul.about-list{ margin: 30px 0 0 ;}
 ul.about-list li{
-	/* display: block; */
+	display: block;
 	font-size: 16px;
 	line-height: 30px;
 	font-family: 'Open Sans', sans-serif;
@@ -33,25 +36,43 @@ ul.about-list li span{
   padding: 100px;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
 }
 
+.devices-img {
+  width: 40vw;
+  margin-right: 7vw;
+}
+
+.devices-img img{
+  width: 100%;
+}
+
 .about-text{
-  display: block;
+  /* display: block; */
   height: 100%;
-	width: 55%;
+	/* width: 40vw; */
 }
 
-.cermonies-content {
-  margin-top: 50px;
+.cermonies-text h4{
+  font-weight: 600;
+  line-height: 1.2em;
 }
 
-.youtube-link {
+.cermonies-text p{
+  font-size: 1.3em;
+}
+
+.youtube-link, .map-link{
   color: inherit;
   font-weight: 400;
   text-decoration: none;
+  font-weight: 600;
+}
+
+.map-link {
+  padding-left: 5px;
 }
 
 .youtube-link:hover {
