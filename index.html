@@ -51,6 +51,10 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
+    <!-- <link rel="stylesheet" href="css/lightgallery.css">
+    <link rel="stylesheet" href="css/lg-transitions.css"> -->
+    <link rel="stylesheet" href="node_modules/lightgallery.js/src/css/lightgallery.css">
+
     <link
         href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic"
         rel="stylesheet" type="text/css">
@@ -101,7 +105,7 @@
 
         <!-- Home Page
           ==========================================-->
-        <section id="tf-home" class="text-center screen-heigth">
+        <section id="tf-home" class="text-center screen-height">
             <div class="overlay">
                 <div class="main-page-content" data-aos="zoom-in">
                     <h1>Будь <span class="color">вільний!</span></h1>
@@ -312,7 +316,7 @@
                     <div class="row values-carousel-container">
                         <div class="col-md-12">
                             <div id="values-carousel" class="owl-carousel owl-theme">
-                                <div class="item value-item" id="relationship">
+                                <div class="item value-item" id="relationship-value-item">
                                     <div class="item-image-container">
                                         <div class="item-image-block">
                                             <img src="./img/values/1_relationship.png" alt="">
@@ -330,7 +334,7 @@
                                     </div>
                                 </div>
     
-                                <div class="item value-item" id="glory">
+                                <div class="item value-item" id="glory-value-item">
                                     <div class="item-image-container">
                                         <div class="item-image-block">
                                             <img src="./img/values/2_glory.png" alt="">
@@ -348,7 +352,7 @@
                                     </div>
                                 </div>
     
-                                <div class="item value-item" id="church">
+                                <div class="item value-item" id="church-value-item">
                                     <div class="item-image-container">
                                         <div class="item-image-block">
                                             <img src="./img/values/3_church.png" alt="">
@@ -367,7 +371,7 @@
                                     </div>
                                 </div>
 
-                                <div class="item value-item" id="gospel">
+                                <div class="item value-item" id="gospel-value-item">
                                     <div class="item-image-container">
                                         <div class="item-image-block">
                                             <img src="./img/values/4_gospel.png" alt="">
@@ -385,7 +389,7 @@
                                     </div>
                                 </div>
 
-                                <div class="item value-item" id="serve">
+                                <div class="item value-item" id="serve-value-item">
                                     <div class="item-image-container">
                                         <div class="item-image-block">
                                             <img src="./img/values/5_serve.png" alt="">
@@ -403,7 +407,7 @@
                                     </div>
                                 </div>
 
-                                <div class="item value-item" id="family">
+                                <div class="item value-item" id="family-value-item">
                                     <div class="item-image-container">
                                         <div class="item-image-block">
                                             <img src="./img/values/6_family.png" alt="">
@@ -429,8 +433,8 @@
 
         <!-- Gallery Section
           ==========================================-->
-        <div id="tf-gallery">
-            <div class="container">
+        <div id="tf-gallery" class="screen-height">
+            <div>
                 <!-- Container -->
                 <div class="section-title text-center center">
                     <h2><strong>Галерея</strong></h2>
@@ -440,7 +444,73 @@
                 </div>
                 <div class="space"></div>
 
-                <div class="categories">
+                <div class="gallery-container">
+                    <ul id="gallery" class="list-unstyled row">
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/gallery/IMG_0076-min.JPG" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                            <a href="">
+                                <img class="img-responsive" src="img/gallery/IMG_0076.JPG" alt="Thumb-1">
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/gallery/IMG_0226-min.JPG" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                            <a href="">
+                                <img class="img-responsive" src="img/gallery/IMG_0226.JPG" alt="Thumb-1">
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/gallery/IMG_0340-min.JPG" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                            <a href="">
+                                <img class="img-responsive" src="img/gallery/IMG_0340.JPG" alt="Thumb-1">
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/gallery/IMG_0497-min.JPG" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                            <a href="">
+                                <img class="img-responsive" src="img/gallery/IMG_0497.JPG" alt="Thumb-1">
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/gallery/IMG_0607-min.JPG" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                            <a href="">
+                                <img class="img-responsive" src="img/gallery/IMG_0607.JPG" alt="Thumb-1">
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/gallery/IMG_1026-min.JPG" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                            <a href="">
+                                <img class="img-responsive" src="img/gallery/IMG_1026.JPG" alt="Thumb-1">
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/gallery/IMG_9347-min.JPG" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                            <a href="">
+                                <img class="img-responsive" src="img/gallery/IMG_9347.JPG" alt="Thumb-1">
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/gallery/IMG_1195-min.JPG" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                            <a href="">
+                                <img class="img-responsive" src="img/gallery/IMG_1195.JPG" alt="Thumb-1">
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/gallery/IMG_9481-min.JPG" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                            <a href="">
+                                <img class="img-responsive" src="img/gallery/IMG_9481.JPG" alt="Thumb-1">
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/gallery/IMG_2379-min.JPG" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                            <a href="">
+                                <img class="img-responsive" src="img/gallery/IMG_2379.JPG" alt="Thumb-1">
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/gallery/IMG_1203-min.JPG" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                            <a href="">
+                                <img class="img-responsive" src="img/gallery/IMG_1203.JPG" alt="Thumb-1">
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/gallery/IMG_1225-min.JPG" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                            <a href="">
+                                <img class="img-responsive" src="img/gallery/IMG_1225.JPG" alt="Thumb-1">
+                            </a>
+                        </li>
+                      </ul>
+                </div>
+                
+
+                <!-- <div class="categories">
 
                     <ul class="cat">
                         <li class="pull-left">
@@ -556,7 +626,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -771,7 +841,7 @@
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/values.js"></script>
+    <!-- <script type="text/javascript" src="js/values.js"></script> -->
     <script type="text/javascript" src="js/events.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
@@ -786,6 +856,34 @@
         });
     </script>
     <!-- <script src="https://kit.fontawesome.com/2d266558be.js" crossorigin="anonymous"></script> -->
+
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/lib/js/lightgallery.min.js"></script> -->
+
+
+    <!-- lightgallery plugins -->
+    <!-- <script src="node_modules/lightgallery.js/src/js/lightgallery.js"></script>
+    <script src="node_modules/lightgallery.js/src/js/lg-utils.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+    <!-- <script>
+        lightGallery(document.getElementById('lightgallery'));
+    </script> -->
+
+    <script type="text/javascript">
+        lightGallery(document.getElementById('gallery'), {
+            thumbnail:true,
+            animateThumb: false,
+            showThumbByDefault: false,
+            mode: 'lg-fade'
+        }); 
+    </script>
 
 </body>
 

@@ -137,26 +137,26 @@
 
 /* Backgrounds */
 
-#relationship .item-image-container {
+#relationship-value-item .item-image-container {
 	background-image: url('../img/values/1_relationship_bg-min.jpg');
 }
 
-#glory .item-image-container {
+#glory-value-item .item-image-container {
 	background-image: url('../img/values/2_glory_bg-min.jpg');
 }
 
-#church .item-image-container {
+#church-value-item .item-image-container {
 	background-image: url('../img/values/3_church_bg-min.jpg');
 }
 
-#gospel .item-image-container {
-	background-image: url('../img/values/1_relationship_bg-min.jpg');
+#gospel-value-item .item-image-container {
+	background-image: url('../img/values/4_gospel_bg-min.jpg');
 }
 
-#serve .item-image-container {
-	background-image: url('../img/values/2_glory_bg-min.jpg');
+#serve-value-item .item-image-container {
+	background-image: url('../img/values/5_serve_bg-min.jpg');
 }
 
-#family .item-image-container {
-	background-image: url('../img/values/3_church_bg-min.jpg');
+#family-value-item .item-image-container {
+	background-image: url('../img/values/6_family_bg-min.jpg');
 }
