@@ -10,7 +10,7 @@ function main() {
    'use strict';
 
    /* ==============================================
-  	Testimonial Slider
+  	Values Slider
   	=============================================== */ 
 
   	$('a.page-scroll').click(function() {
@@ -44,47 +44,38 @@ function main() {
     })
 
   	$(document).ready(function() {
-  	  $("#team").owlCarousel({
-  	 
-  	      navigation : false, // Show next and prev buttons
-  	      slideSpeed : 1000,
-  	      paginationSpeed : 1000,
-  	      autoHeight : true,
-  	      itemsCustom : [
-				        [0, 1],
-				        [450, 2],
-				        [600, 2],
-				        [700, 2],
-				        [1000, 4],
-				        [1200, 4],
-				        [1400, 4],
-				        [1600, 4]
-				      ],
-  	  });
-
-  	  $("#clients").owlCarousel({
-  	 
-  	      navigation : false, // Show next and prev buttons
-  	      slideSpeed : 1000,
-  	      paginationSpeed : 1000,
-  	      autoHeight : true,
-  	      itemsCustom : [
-				        [0, 1],
-				        [450, 2],
-				        [600, 2],
-				        [700, 2],
-				        [1000, 4],
-				        [1200, 5],
-				        [1400, 5],
-				        [1600, 5]
-				      ],
-  	  });
-
-      $("#testimonial").owlCarousel({
-        navigation : false, // Show next and prev buttons
-        slideSpeed : 1000,
-        paginationSpeed : 1000,
-        singleItem:true
+      $("#values-carousel").owlCarousel({
+        lazyLoad: true,
+        navigation: false, // Show next and prev buttons
+        slideSpeed: 1000,
+        paginationSpeed: 1000,
+        singleItem: true,
+        responsiveClass: true,
+        itemsCustom : [
+          [0, 1],
+          [450, 2],
+          [600, 2],
+          [700, 2],
+          [1000, 4],
+          [1200, 5],
+          [1400, 5],
+          [1600, 5]
+        ],
+        // responsive:{
+        //     0:{
+        //         items:1,
+        //         nav:true
+        //     },
+        //     600:{
+        //         items:3,
+        //         nav:false
+        //     },
+        //     1000:{
+        //         items:5,
+        //         nav:true,
+        //         loop:false
+        //     }
+        // }
         });
 
   	});

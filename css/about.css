@@ -1,5 +1,26 @@
 /* About Section */
 
+.about-content {
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.devices-img {
+  width: 40vw;
+  margin-right: 7vw;
+}
+
+.devices-img img{
+  width: 100%;
+}
+
+.about-text{
+  height: 100%;
+}
+
 .goal-content {
   margin: 8vh 1vw;
 }
@@ -30,29 +51,6 @@ ul.about-list li{
 }
 ul.about-list li span{ 
 	margin-right: 10px;
-}
-
-.about-content {
-  padding: 100px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.devices-img {
-  width: 40vw;
-  margin-right: 7vw;
-}
-
-.devices-img img{
-  width: 100%;
-}
-
-.about-text{
-  /* display: block; */
-  height: 100%;
-	/* width: 40vw; */
 }
 
 .cermonies-text h4{

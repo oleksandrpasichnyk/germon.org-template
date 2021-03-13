@@ -89,7 +89,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#tf-home" class="page-scroll">Головна</a></li>
                         <li><a href="#tf-about" class="page-scroll">Про нас</a></li>
-                        <li><a href="#tf-team" class="page-scroll">Наші пастори</a></li>
+                        <!-- <li><a href="#tf-team" class="page-scroll">Наші пастори</a></li> -->
                         <li><a href="#tf-values" class="page-scroll">Наші цінності</a></li>
                         <li><a href="#tf-gallery" class="page-scroll">Галерея</a></li>
                         <li><a href="#tf-events" class="page-scroll">Розклад заходів</a></li>
@@ -122,14 +122,14 @@
                 </div>
                 <div class="about-text" data-aos="fade-left" data-aos-duration="1000">
                     <div class="section-title">
-                        <h2>Ми - церква <br>ЄХБ <strong>"Преображення"</strong> м. Львів</h2>
+                        <h2>Ми - церква ЄХБ <strong>"Преображення"</strong> м. Львів</h2>
                         <hr>
                         <!-- <div class="clearfix"></div> -->
                     </div>
                     <div class="goal-content">
                         <p class="goal-text-intro">І наша <strong class="color">місія</strong>:</p>
                         <div class="goal-text-block">
-                            <q class="goal-text">Преображатися в образ Ісуса Христа та <br> допомогти іншим преобразитися в той же образ.</q>
+                            <q class="goal-text">Преображатися в образ Ісуса Христа та допомогти іншим преобразитися в той же образ.</q>
                         </div>
                     </div>
                     <div class="cermonies-text">
@@ -142,7 +142,7 @@
 
         <!-- Team Page
           ==========================================-->
-        <section id="tf-team" class="text-center">
+        <!-- <section id="tf-team" class="text-center">
             <div class="overlay">
                 <div class="container">
                     <div class="section-title center">
@@ -252,92 +252,182 @@
 
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        <!-- Services Section
+        <!-- Values Section
           ==========================================-->
-        <section id="tf-values" class="text-center screen-heigth">
-            <div class="container">
-                <div class="section-title center">
-                    <h2><strong>Ми цінуємо</strong></h2>
-                    <div class="line">
-                        <hr>
+        <section id="tf-values" class="text-center">
+            <div class="overlay">
+                <div class="container">
+                    <div class="section-title center">
+                        <h2><strong>Ми цінуємо</strong></h2>
+                        <div class="line">
+                            <hr>
+                        </div>
                     </div>
-                    <!-- <div class="clearfix"></div>
-                      <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
-                </div>
-                <div class="space"></div>
-                <div class="modal" id="values-modal">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div id="modal-image">
-                                <!-- <img src="./img/values/1_relationship_bg.jpg" alt=""> -->
-                                <div class="modal-image-block">
-                                    <img id="modal-value-image" alt="">
+                    <div class="space"></div>
+                    <div class="values-container" id="values">
+                        <div class="value owl-page" data-valuename="relationship" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="value-img-block">
+                                <img class="value-img" src="./img/values/1_relationship.png" alt="relationship">
+                            </div>
+                            <h5>Особистими<br> стосунками з Богом</h5>
+                        </div>
+    
+                        <div class="value" data-valuename="glory" data-aos="fade-down" data-aos-duration="1000">
+                            <div class="value-img-block">
+                                <img class="value-img" src="./img/values/2_glory.png" alt="glory">
+                            </div>
+                            <h5>Славою, хвалою і<br> поклонінням Богові</h5>
+                        </div>
+    
+                        <div class="value" data-valuename="church" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="value-img-block">
+                                <img class="value-img" src="./img/values/3_church.png" alt="church">
+                            </div>
+                            <h5>Спільнотою<br> (Церквою)</h5>
+                        </div>
+    
+                        <div class="value" data-valuename="gospel" data-aos="fade-up-right" data-aos-duration="1000">
+                            <div class="value-img-block">
+                                <img class="value-img" src="./img/values/4_gospel.png" alt="gospel">
+                            </div>
+                            <h5>Свідченням про<br> Ісуса Христа</h5>
+                        </div>
+    
+                        <div class="value" data-valuename="serve" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="value-img-block">
+                                <img class="value-img" src="./img/values/5_serve.png" alt="serve">
+                            </div>
+                            <h5>Служінням дарами<br> Духа Святого</h5>
+                        </div>
+    
+                        <div class="col-md-2 col-sm-4 value" data-valuename="family" data-aos="fade-up-left" data-aos-duration="1000">
+                            <div class="value-img-block">
+                                <img class="value-img" src="./img/values/6_family.png" alt="family">
+                            </div>
+                            <h5>Сім'єю</h5>
+                        </div>
+                    </div>
+                    <div class="row values-carousel-container">
+                        <div class="col-md-12">
+                            <div id="values-carousel" class="owl-carousel owl-theme">
+                                <div class="item value-item" id="relationship">
+                                    <div class="item-image-container">
+                                        <div class="item-image-block">
+                                            <img src="./img/values/1_relationship.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item-body">
+                                        <h4 class="item-title">1. Ми цінуємо особистими стосунками з Богом, і це виявляється в тому, що ми:</h4>
+                                        <div class="item-text">
+                                            <ul>
+                                                <li><b>приділяємо</b> щодня час читанню Писання і роздумам над ним та молитві, що є основою глибоких особистих стосунків з Богом для пізнання Його та Його волі;</li>
+                                                <li><b>докладаємо</b> зусиль, щоби жити згідно з Біблійними принципами та ділитися ними з іншими людьми, заохочуючи їх до читання, роздумування та практичного застосування Писання в повсякденному житті;</li>
+                                                <li><b>змінюємося</b> під впливом Слова Божого та Духа Святого в образ Христа, наслідуючи Його характер.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="item value-item" id="glory">
+                                    <div class="item-image-container">
+                                        <div class="item-image-block">
+                                            <img src="./img/values/2_glory.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item-body">
+                                        <h4 class="item-title">2. Ми цінуємо славою, хвалою і поклонінням Богові, і це виявляється в тому, що ми:</h4>
+                                        <div class="item-text">
+                                            <ul>
+                                                <li><b>навчаємо,</b> як правильно поклонятися Богу в Дусі та Істині;</li>
+                                                <li><b>заохочуємо</b> до справжнього поклоніння Богові, яке виявляється через: характер (поведінку); посвячений час для прославлення і хвали Бога в молитвах, піснях та музиці; через посвячене служіння людям;</li>
+                                                <li><b>організовуємо</b> зібрання і служіння церкви для того, щоби люди щиро прославляли Бога та поклонялися Йому через молитву, музику, спів та особисте служіння.</li>
+                                              </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="item value-item" id="church">
+                                    <div class="item-image-container">
+                                        <div class="item-image-block">
+                                            <img src="./img/values/3_church.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item-body">
+                                        <h4 class="item-title">3. Ми цінуємо спільнотою (Церквою), і це виявляється в тому, що ми:</h4>
+                                        <div class="item-text">
+                                            <ul>
+                                                <li><b>дбаємо</b> про єдність спільноти, не зважаючи на численні відмінності один від одного в характері, даруваннях, здібностях, в служінні;</li>
+                                                <li><b>приймаємо</b> участь у Вечері Господній для спільності з Христом та Церквою;</li>
+                                                <li><b>будуємо</b> відкриті та щирі відносини через добрі вчинки та уважність до потреб один одного;</li>
+                                                <li><b>приймаємо</b> активну участь в різних зібраннях, домашніх групах та служіннях церкви, підтримуючи її своїми молитвами, дарами, талантами і щедрими пожертвами.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item value-item" id="gospel">
+                                    <div class="item-image-container">
+                                        <div class="item-image-block">
+                                            <img src="./img/values/4_gospel.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item-body">
+                                        <h4 class="item-title">4. Ми цінуємо свідченням про Ісуса Христа, і це виявляється в тому, що ми:</h4>
+                                        <div class="item-text">
+                                            <ul>
+                                                <li><b>свідчимо</b> про Нього іншим людям своїм життям та словом;</li>
+                                                <li><b>молимося</b> за місіонерів, підтримуємо їх фінансово та споряджаємо на місію членів церкви;</li>
+                                                <li><b>організовуємо</b> євангелізаційні заходи; соціальні проекти; використовуємо інтернет ресурс для донесення Євангелії людям.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item value-item" id="serve">
+                                    <div class="item-image-container">
+                                        <div class="item-image-block">
+                                            <img src="./img/values/5_serve.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item-body">
+                                        <h4 class="item-title">5. Ми цінуємо служінням відповідно до дарів Духа Святого, і це виявляється в тому, що ми:</h4>
+                                        <div class="item-text">
+                                            <ul>
+                                                <li><b>використовуємо</b> служіння дарами Духа Святого для того, щоб приносити славу Богові, збудовувати один одного та будувати церкву і приносити їй користь;</li>
+                                                <li><b>служимо</b> та закликаємо інших ефективно служити відповідно до духовних дарів;</li>
+                                                <li><b>зосереджені</b> на досягнення бачення та цілей помісної Церкви, а не особистих.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item value-item" id="family">
+                                    <div class="item-image-container">
+                                        <div class="item-image-block">
+                                            <img src="./img/values/6_family.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item-body">
+                                        <h4 class="item-title">6. Ми цінуємо сім’єю, і це виявляється в тому, що ми:</h4>
+                                        <div class="item-text">
+                                            <ul>
+                                                <li><b>служимо</b> для побудови в своїх сім’ях атмосфери любові і довіри, злагоди та прийняття, вкладаючи особистий час, фізичні і емоційні зусилля та матеріальні ресурси, тощо;</li>
+                                                <li><b>розвиваємо</b> сімейне служіння в нашій церкві для побудови біблійних взаємовідносин між чоловіком і дружиною, а також між батьками та дітьми через проведення дошлюбного навчання; сімейних семінарів і конференцій; кризового консультування, тощо;</li>
+                                                <li><b>поширюємо</b> біблійні сімейні цінності у суспільстві через участь у масових акціях на підтримку сімейних цінностей; проведення сімейних свят, семінарів, конференцій та особистого консультування.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="modal-body">
-                                <h4 class="modal-title" id="modal-title"></h4>
-                                <p id="modal-text"></p>
-                            </div>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                aria-label="Close">&times;</button>
                         </div>
-                    </div>
-                </div>
-                <div class="row" id="values">
-                    <div class="col-md-4 col-sm-6 value" data-valuename="relationship" data-aos="fade-right" data-aos-duration="1000">
-                        <div class="value-img-block">
-                            <img class="value-img" src="./img/values/1_relationship.png" alt="relationship">
-                        </div>
-                        <h4><strong>Особистими<br> стосунками з Богом</strong></h4>
-                        <p class="value-subtitle">читати...</p>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 value" data-valuename="glory" data-aos="fade-down" data-aos-duration="1000">
-                        <div class="value-img-block">
-                            <img class="value-img" src="./img/values/2_glory.png" alt="glory">
-                        </div>
-                        <h4><strong>Славою, хвалою і<br> поклонінням Богові</strong></h4>
-                        <p class="value-subtitle">і це виявляється в тому, що ми...</p>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 value" data-valuename="church" data-aos="fade-left" data-aos-duration="1000">
-                        <div class="value-img-block">
-                            <img class="value-img" src="./img/values/3_church.png" alt="church">
-                        </div>
-                        <h4><strong>Спільнотою<br> (Церквою)</strong></h4>
-                        <p class="value-subtitle">і це виявляється в тому, що ми...</p>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 value" data-valuename="gospel" data-aos="fade-up-right" data-aos-duration="1000">
-                        <div class="value-img-block">
-                            <img class="value-img" src="./img/values/4_gospel.png" alt="gospel">
-                        </div>
-                        <h4><strong>Свідченням про<br> Ісуса Христа</strong></h4>
-                        <p class="value-subtitle">і це виявляється в тому, що ми...</p>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 value" data-valuename="serve" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="value-img-block">
-                            <img class="value-img" src="./img/values/5_serve.png" alt="serve">
-                        </div>
-                        <h4><strong>Служінням дарами<br> Духа Святого</strong></h4>
-                        <p class="value-subtitle">і це виявляється в тому, що ми...</p>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 value" data-valuename="family" data-aos="fade-up-left" data-aos-duration="1000">
-                        <div class="value-img-block">
-                            <img class="value-img" src="./img/values/6_family.png" alt="family">
-                        </div>
-                        <h4><strong>Сім'єю</strong></h4>
-                        <p class="value-subtitle">і це виявляється в тому, що ми...</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Portfolio Section
+        <!-- Gallery Section
           ==========================================-->
         <div id="tf-gallery">
             <div class="container">
